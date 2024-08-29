@@ -9,7 +9,6 @@ import GalleryImg6 from '../src/img/gallery/6.png';
 import GalleryImg7 from '../src/img/gallery/7.png';
 import GalleryImg8 from '../src/img/gallery/8.png';
 import QuoteImg from '../src/img/testimonial/quote.svg';
-// import icons
 import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
 import { FiSend } from 'react-icons/fi';
@@ -19,6 +18,10 @@ import {
   IoLogoTwitter,
   IoLogoYoutube,
 } from 'react-icons/io';
+import hand from './img/focus/hand.png'
+import protect from './img/focus/protect.png'
+import cycle from './img/focus/cycle.png'
+
 
 export const headerData = {
   logo: Logo,
@@ -59,6 +62,34 @@ export const aboutData = {
   btnText: 'Know more',
   btnIcon: <IoMdArrowForward />,
 };
+
+export const doings = [
+  {
+      icon: hand,
+      name: 'Hand',
+      heading: '01. protecting water quality',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum vulputate convallis aliquet. At massa rhoncus, suspendisse in viverra risus feugiat ut.',
+      desc2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum.',
+      button: 'read more'
+  },
+  {
+      icon: cycle,
+      name: 'Cycle',
+      heading: '02. creating healthy economy',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum vulputate convallis aliquet. At massa rhoncus, suspendisse in viverra risus feugiat ut.',
+      desc2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum.',
+      button: 'read more'
+  },
+  {
+      icon: protect,
+      name: 'Protect',
+      heading: '03. protecting farms and ranches',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum vulputate convallis aliquet. At massa rhoncus, suspendisse in viverra risus feugiat ut.',
+      desc2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum.',
+      button: 'read more'
+  },
+]
+
 
 export const galleryData = {
   title: 'Check my gallery:',
