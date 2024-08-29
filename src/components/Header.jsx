@@ -2,9 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { headerData } from '../data';
 import Nav from "./Nav"
 import NavMobile from "./NavMobile"
-import Social from "./Socials"
 import { TiThMenuOutline } from "react-icons/ti"
-import { useFetcher } from 'react-router-dom';
 import Socials from './Socials';
 
 
