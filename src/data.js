@@ -147,30 +147,6 @@ export const galleryData = {
   ],
 };
 
-export const interviewData = {
-  title:
-    '“Consider what you desire. Your tattoo artist will never tell you what tattoo to have.”',
-  btnText: 'Watch it now',
-  btnIcon: <FaPlay />,
-};
-
-export const testimonialData = [
-  {
-    quoteImg: QuoteImg,
-    message:
-      "The entire team is extremely kind and friendly. They're fantastic. They're great at what they do! And it's unique.They will properly consult with you.",
-    name: 'Jack Geoffrey',
-    occupation: 'Tattoo Artist',
-  },
-  {
-    quoteImg: QuoteImg,
-    message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa asperiores officia natus dignissimos autem possimus molestias aperiam?',
-    name: 'Douglas Hane',
-    occupation: 'Tattoo Artist',
-  },
-];
-
 export const contactData = {
   title: 'Get in touch with me:',
   info: [

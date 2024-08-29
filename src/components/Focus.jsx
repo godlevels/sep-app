@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import leaf from "../img/focus/leaf.png"
 import { doings } from '../data';
+import { motion } from 'framer-motion'
+import { fadeIn } from '../variants'
 
 const Focus = () => {
   const [itemName, setItemName] = useState('Hand');
@@ -10,9 +12,9 @@ const Focus = () => {
             <div className=''>
                 <img src={leaf} alt="" data-aos="zoom-in" data-aos-delay="160"/>
             </div>
-            <div className='mb-10'>
-                <h1 data-aos="zoom-in" data-aos-delay="160" className='text-center font-semibold text-2xl capitalize'>what we do</h1>
-            </div>
+            <motion.div variants={fadeIn('up')} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.6}} className='mb-10'>
+                <h1 data-aos="zoom-in" data-aos-delay="160" className='h2 max-w-[370px] lg:mb-20'>what we do:</h1>
+            </motion.div>
 
             <div className='flex flex-col gap-[45px] lg:flex-row px-0 lg:px-8'>
                 {doings.map((item, index) => {
