@@ -3,10 +3,11 @@ import Hero from './components/Hero';
 import Header from './components/Header';
 import About from './components/About';
 import GallerySection from './components/GallerySection';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Copyright from './components/Copyright';
 import Focus from './components/Focus';
+import Events from './components/Events';
+import Cta from './components/Cta';
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       <About />
       <Focus />
       <GallerySection />
-      <Contact />
+      <Events />
+      <Cta />
       <Footer />
       <Copyright />
       {/* <div className='h-[4000px]'></div> */}

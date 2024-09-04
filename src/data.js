@@ -1,18 +1,17 @@
 // import images
 import Logo from '../src/img/header/logo.png';
-import GalleryImg1 from '../src/img/gallery/1.png';
-import GalleryImg2 from '../src/img/gallery/2.png';
-import GalleryImg3 from '../src/img/gallery/3.png';
-import GalleryImg4 from '../src/img/gallery/4.png';
-import GalleryImg5 from '../src/img/gallery/5.png';
-import GalleryImg6 from '../src/img/gallery/6.png';
-import GalleryImg7 from '../src/img/gallery/7.png';
-import GalleryImg8 from '../src/img/gallery/8.png';
-import QuoteImg from '../src/img/testimonial/quote.svg';
+import GalleryImg1 from '../src/img/gallery/1.jpg';
+import GalleryImg2 from '../src/img/gallery/2.jpg';
+import GalleryImg3 from '../src/img/gallery/3.jpg';
+import GalleryImg4 from '../src/img/gallery/4.jpg';
+import GalleryImg5 from '../src/img/gallery/5.jpg';
+import GalleryImg6 from '../src/img/gallery/6.jpg';
+import GalleryImg7 from '../src/img/gallery/7.jpg';
+import GalleryImg8 from '../src/img/gallery/8.jpg';
 import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
 import { FiSend } from 'react-icons/fi';
-import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import {
   IoLogoInstagram,
   IoLogoTwitter,
@@ -21,6 +20,11 @@ import {
 import hand from './img/focus/hand.png'
 import protect from './img/focus/protect.png'
 import cycle from './img/focus/cycle.png'
+import img1 from './img/events/b1.png'
+import img2 from './img/events/b2.png'
+import img3 from './img/events/b3.png'
+import imgg from './img/events/location.png'
+import note from './img/events/bell.png'
 
 
 export const headerData = {
@@ -99,50 +103,34 @@ export const galleryData = {
     {
       src: GalleryImg1,
       original: GalleryImg1,
-      width: 465,
-      height: 412,
     },
     {
       src: GalleryImg2,
       original: GalleryImg2,
-      width: 465,
-      height: 540,
     },
     {
       src: GalleryImg3,
       original: GalleryImg3,
-      width: 465,
-      height: 412,
     },
     {
       src: GalleryImg4,
       original: GalleryImg4,
-      width: 465,
-      height: 540,
     },
     {
       src: GalleryImg5,
       original: GalleryImg5,
-      width: 465,
-      height: 540,
     },
     {
       src: GalleryImg6,
       original: GalleryImg6,
-      width: 464,
-      height: 412,
     },
     {
       src: GalleryImg7,
       original: GalleryImg7,
-      width: 465,
-      height: 540,
     },
     {
       src: GalleryImg8,
       original: GalleryImg8,
-      width: 465,
-      height: 412,
     },
   ],
 };
@@ -241,3 +229,40 @@ export const footerData = {
     },
   },
 };
+
+export const eventsData = [
+  {
+      date: '21-23',
+      month: 'April',
+      image: img1,
+      heading: 'energy export festival',
+      icon: imgg,
+      desc: '304 Falls Blvd , Quinc MA 2169',
+      desc2: 'event details',
+      icon2: note,
+      text: 'remind me'
+  },
+  {
+      date: '21-23',
+      month: 'may',
+      image: img2,
+      heading: 'Operation Save the Economy',
+      icon: imgg,
+      desc: '304 Falls Blvd , Quinc MA 2169',
+      desc2: 'event details',
+      icon2: note,
+      text: 'remind me'
+  },
+
+  {
+      date: '21-23',
+      month: 'june',
+      image: img3,
+      heading: 'The Environment Music Festival',
+      icon: imgg,
+      desc: '304 Falls Blvd , Quinc MA 2169',
+      desc2: 'event details',
+      icon2: note,
+      text: 'remind me'
+  },
+]
