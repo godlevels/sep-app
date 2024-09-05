@@ -13,7 +13,7 @@ const Focus = () => {
                 <img src={leaf} alt="" data-aos="zoom-in" data-aos-delay="160"/>
             </div>
             <motion.div variants={fadeIn('up')} initial="hidden" whileInView={"show"} viewport={{once: false, amount: 0.6}} className='mb-10'>
-                <h1 data-aos="zoom-in" data-aos-delay="160" className='h2 max-w-[370px] lg:mb-20'>what we do:</h1>
+                <h1 data-aos="zoom-in" data-aos-delay="160" className='h2 max-w-[370px] lg:mb-20'>our mission:</h1>
             </motion.div>
 
             <div className='flex flex-col gap-[45px] lg:flex-row px-0 lg:px-8'>
@@ -48,7 +48,7 @@ const Focus = () => {
             </div>
 
             <div className='button flex justify-center items-center py-10'>
-                <button  data-aos="fade-up" data-aos-delay="170" className=' border border-green-500 capitalize rounded-md px-10 py-2 text-black hover:bg-green-500 hover:text-white'>join us</button>
+            <a href="https://chat.whatsapp.com/C2CZ4ANXtENEPzzKF1TyVG"><button  data-aos="fade-up" data-aos-delay="170" className=' border border-green-500 capitalize rounded-md px-10 py-2 text-black hover:bg-green-500 hover:text-white'>join us</button></a>
             </div>
 
 

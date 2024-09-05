@@ -5,15 +5,12 @@ import GalleryImg2 from '../src/img/gallery/2.jpg';
 import GalleryImg3 from '../src/img/gallery/3.jpg';
 import GalleryImg4 from '../src/img/gallery/4.jpg';
 import GalleryImg5 from '../src/img/gallery/5.jpg';
-import GalleryImg6 from '../src/img/gallery/6.jpg';
+import GalleryImg6 from '../src/img/gallery/8.jpg';
 import GalleryImg7 from '../src/img/gallery/7.jpg';
-import GalleryImg8 from '../src/img/gallery/8.jpg';
+import GalleryImg8 from '../src/img/gallery/6.jpg';
 import { GrFacebookOption } from 'react-icons/gr';
-import { IoMdArrowForward } from 'react-icons/io';
-import { FiSend } from 'react-icons/fi';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import { IoLogoWhatsapp, IoMdArrowForward } from 'react-icons/io';
 import {
-  IoLogoInstagram,
   IoLogoTwitter,
   IoLogoYoutube,
 } from 'react-icons/io';
@@ -43,27 +40,15 @@ export const navData = {
 };
 
 export const socialData = [
-  { href: '/', icon: <GrFacebookOption /> },
-  { href: '/', icon: <IoLogoInstagram /> },
+  { href: 'https://www.facebook.com/profile.php?id=100080074551293', icon: <GrFacebookOption /> },
+  { href: 'https://chat.whatsapp.com/C2CZ4ANXtENEPzzKF1TyVG', icon : <IoLogoWhatsapp /> },
   { href: '/', icon: <IoLogoTwitter /> },
   { href: '/', icon: <IoLogoYoutube /> },
 ];
 
 export const heroData = {
-  title: 'I’m Void Sir.',
-  subtitle:
-    'Tattoos have their own unique power and magic. They not only beautify the body but also the psyche.',
+  title: 'Healthier people, Champion Society.',
   btnText: 'read more',
-  btnIcon: <IoMdArrowForward />,
-};
-
-export const aboutData = {
-  title: 'My Story:',
-  subtitle1:
-    'In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.',
-  subtitle2:
-    'Nisl, sit molestie commodo congue. Etiam lectus risus in amet. Commodo molestie fames etiam aenean sed. Pellentesque et venenatis amet, tellus hac vel adipiscing sit. Placerat vitae nisl viverra faucibus tincidunt habitasse amet. Nunc, velit nunc, scelerisque imperdiet nunc.',
-  btnText: 'Know more',
   btnIcon: <IoMdArrowForward />,
 };
 
@@ -71,164 +56,87 @@ export const doings = [
   {
       icon: hand,
       name: 'Hand',
-      heading: '01. protecting water quality',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum vulputate convallis aliquet. At massa rhoncus, suspendisse in viverra risus feugiat ut.',
-      desc2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum.',
+      heading: '01. Education',
+      desc: 'Educate youth, women and children to have voice, different thinking and new perspectives.',
+      desc2: 'Promote lifelong learning opportunities for all, emphasizing the importance of education in achieving personal and community growth.',
       button: 'read more'
   },
   {
       icon: cycle,
       name: 'Cycle',
-      heading: '02. creating healthy economy',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum vulputate convallis aliquet. At massa rhoncus, suspendisse in viverra risus feugiat ut.',
-      desc2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum.',
+      heading: '02. Empowerment',
+      desc: 'Empower youth, women and adolescent ones to build their inner confidence.',
+      desc2: 'Facilitate access to resources and support systems that help individuals gain control over their lives and make informed decisions.',
       button: 'read more'
   },
   {
       icon: protect,
       name: 'Protect',
-      heading: '03. protecting farms and ranches',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum vulputate convallis aliquet. At massa rhoncus, suspendisse in viverra risus feugiat ut.',
-      desc2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum congue libero ultricies et condimentum.',
+      heading: '03. Engagement',
+      desc: 'Engage more youth, women and children in community activities to have a champion society.',
+      desc2: 'Foster active participation in social, economic, and cultural activities to strengthen community bonds and create a supportive environment.',
       button: 'read more'
   },
-]
+];
+
 
 
 export const galleryData = {
-  title: 'Check my gallery:',
+  title: 'Check Our gallery:',
   btnText: 'View all',
   btnIcon: <IoMdArrowForward />,
-  images: [
+  images :[
     {
       src: GalleryImg1,
       original: GalleryImg1,
+      width: 890,
+      height: 590,
     },
     {
       src: GalleryImg2,
       original: GalleryImg2,
+      width: 400,
+      height: 300,
     },
     {
       src: GalleryImg3,
       original: GalleryImg3,
+      width: 700,
+      height: 450,
     },
     {
       src: GalleryImg4,
       original: GalleryImg4,
+      width: 600,
+      height: 768,
     },
     {
       src: GalleryImg5,
       original: GalleryImg5,
+      width: 1400,
+      height: 900,
     },
     {
       src: GalleryImg6,
       original: GalleryImg6,
+      width: 300,
+      height: 400,
     },
     {
       src: GalleryImg7,
       original: GalleryImg7,
+      width: 500,
+      height: 375,
     },
     {
       src: GalleryImg8,
       original: GalleryImg8,
+      width: 700,
+      height: 525,
     },
-  ],
-};
+  ]
+}
 
-export const contactData = {
-  title: 'Get in touch with me:',
-  info: [
-    {
-      title: 'LA office',
-      subtitle:
-        'In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus',
-      address: {
-        icon: <FaMapMarkerAlt />,
-        name: '784 Norman Street, Los Angeles',
-      },
-      phone: {
-        icon: <FaPhoneAlt />,
-        number: '+49 93 30493943',
-      },
-      email: {
-        icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
-      },
-      link: 'Get location',
-    },
-    {
-      title: 'NYC office',
-      subtitle:
-        'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
-      address: {
-        icon: <FaMapMarkerAlt />,
-        name: '1630 Elm Drive, New York City',
-      },
-      phone: {
-        icon: <FaPhoneAlt />,
-        number: '+49 34 36573355',
-      },
-      email: {
-        icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
-      },
-      link: 'Get location',
-    },
-  ],
-  form: {
-    name: 'Write your name here',
-    email: 'Write your email address',
-    message: 'Write your messages here',
-    btnText: 'Send it',
-  },
-};
-
-export const footerData = {
-  about: {
-    title: 'About void tattoo',
-    subtitle:
-      'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
-    address: {
-      icon: <FaMapMarkerAlt />,
-      name: '1630 Elm Drive, New York City',
-    },
-    phone: {
-      icon: <FaPhoneAlt />,
-      number: '+49 34 36573355',
-    },
-    email: {
-      icon: <FaEnvelope />,
-      address: 'contact@yourcompany.com',
-    },
-  },
-  links: {
-    title: 'Useful links',
-    items: [
-      { href: '/', name: 'About me' },
-      { href: '/', name: 'My gallery' },
-      { href: '/', name: 'My services' },
-      { href: '/', name: 'Contact me' },
-    ],
-  },
-  program: {
-    title: 'Working Time',
-    items: [
-      { name: 'Mon - Tue / Appointment' },
-      { name: 'Wed - Fri / 10:00 - 9:00pm' },
-      { name: 'Sat / 10:00 - 6:00pm' },
-      { name: 'Sun / no work on this day' },
-    ],
-  },
-  newsletter: {
-    title: 'Newsletter',
-    subtitle:
-      'Elit duis porttitor massa tellus nun in velit arcu posuere integer.',
-    form: {
-      placeholder: 'Your email address',
-      icon: <FiSend />,
-    },
-  },
-};
 
 export const eventsData = [
   {
@@ -237,7 +145,7 @@ export const eventsData = [
       image: img1,
       heading: 'energy export festival',
       icon: imgg,
-      desc: '304 Falls Blvd , Quinc MA 2169',
+      desc: 'Ilorin',
       desc2: 'event details',
       icon2: note,
       text: 'remind me'
@@ -248,7 +156,7 @@ export const eventsData = [
       image: img2,
       heading: 'Operation Save the Economy',
       icon: imgg,
-      desc: '304 Falls Blvd , Quinc MA 2169',
+      desc: 'Ilorin',
       desc2: 'event details',
       icon2: note,
       text: 'remind me'
@@ -260,7 +168,7 @@ export const eventsData = [
       image: img3,
       heading: 'The Environment Music Festival',
       icon: imgg,
-      desc: '304 Falls Blvd , Quinc MA 2169',
+      desc: 'Ilorin',
       desc2: 'event details',
       icon2: note,
       text: 'remind me'

@@ -1,4 +1,4 @@
-import { IoLogoFacebook, IoLogoInstagram, IoLogoTwitter, IoLogoWhatsapp } from 'react-icons/io'
+import { IoLogoFacebook, IoLogoWhatsapp } from 'react-icons/io'
 import Logo from '../img/header/logo.png'
 
 
@@ -12,14 +12,12 @@ const Footer = () => {
                         <img src={Logo} alt="" className='w-9 h-9' />
                         <span className='text-xl font-bold'>SEPCEYOWOC</span>
                     </div>
-                    <p className='max-w-[400px] leading-relaxed text-xs'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque error neque, ullam ducimus corrupti vero distinctio assumenda voluptas officia itaque.</p>
+                    <p className='max-w-[400px] leading-relaxed text-xs'>Our focus is to inspire and enrich youth, women and children lives and experience and to empower them to reach their full potentials in health, wellbeing, education, learning and social inclusion.</p>
 
                     <p className='text-xs pt-8 mb-3'>follow us on</p>
                     <div className='flex gap-x-3'>
-                        <IoLogoWhatsapp />
-                        <IoLogoTwitter />
-                        <IoLogoInstagram />
-                        <IoLogoFacebook />
+                        <a href="https://chat.whatsapp.com/C2CZ4ANXtENEPzzKF1TyVG"><IoLogoWhatsapp /></a>
+                        <a href="https://whatsapp.com/dl/"><IoLogoFacebook /></a>
                     </div>
                 </div>
 
@@ -30,15 +28,6 @@ const Footer = () => {
                     <a href="/">our people</a>
                     <a href="/">socails</a>
                     <a href="/">banks</a>
-                </div>
-
-                <div className='flex flex-col capitalize'>
-                    <h1 className='font-semibold'>pages</h1>
-                    <a href="/">home</a>
-                    <a href="/">about</a>
-                    <a href="/">what we do</a>
-                    <a href="/">offers</a>
-                    <a href="/">contact</a>
                 </div>
 
                 <div className='flex flex-col capitalize'>
