@@ -17,7 +17,7 @@ const Footer = () => {
                     <p className='text-xs pt-8 mb-3'>follow us on</p>
                     <div className='flex gap-x-3'>
                         <a href="https://chat.whatsapp.com/C2CZ4ANXtENEPzzKF1TyVG"><IoLogoWhatsapp /></a>
-                        <a href="https://whatsapp.com/dl/"><IoLogoFacebook /></a>
+                        <a href="https://www.facebook.com/profile.php?id=100080074551293"><IoLogoFacebook /></a>
                     </div>
                 </div>
 
