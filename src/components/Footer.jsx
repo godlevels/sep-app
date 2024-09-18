@@ -31,8 +31,7 @@ const Footer = () => {
                 </div>
 
                 <div className='flex flex-col capitalize'>
-                    <h1 className='font-semibold'>contact us</h1>
-                    <p>7788990000048</p>                    
+                    <h1 className='font-semibold'>contact us</h1>                    
                 </div>
             </div>
         </div>
