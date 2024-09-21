@@ -1,5 +1,8 @@
 // import images
 import Logo from '../src/img/header/logo.png';
+import backgroundImage1 from "../src/img/hero/2.jpg"
+import backgroundImage2 from "../src/img/hero/3.jpg"
+import backgroundImage3 from "../src/img/hero/4.jpg"
 import GalleryImg1 from '../src/img/gallery/1.jpg';
 import GalleryImg2 from '../src/img/gallery/2.jpg';
 import GalleryImg3 from '../src/img/gallery/3.jpg';
@@ -46,10 +49,28 @@ export const socialData = [
   { href: '/', icon: <IoLogoYoutube /> },
 ];
 
+
 export const heroData = {
-  title: 'Healthier people, Champion Society.',
-  btnText: 'read more',
-  btnIcon: <IoMdArrowForward />,
+  slides: [
+    {
+      title: 'Healthier people, Champion Society.',
+      btnText: 'read more',
+      btnIcon: <IoMdArrowForward />,
+      image: backgroundImage1,
+    },
+    {
+      title: 'International Day of the Girl Child.',
+      btnText: 'read more',
+      btnIcon: <IoMdArrowForward />,
+      image: backgroundImage2,
+    },
+    {
+      title: 'International Youth Day',
+      btnText: 'read more',
+      btnIcon: <IoMdArrowForward />,
+      image: backgroundImage3,
+    },
+  ],
 };
 
 export const doings = [

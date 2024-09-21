@@ -34,6 +34,8 @@ const Footer = () => {
                     <h1 className='font-semibold'>contact us</h1>                    
                 </div>
             </div>
+
+            
         </div>
 
    </footer>
