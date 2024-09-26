@@ -36,7 +36,7 @@ const Focus = () => {
                                     <p className='mb-5 text-sm'>{desc}</p>
                                     <p className='mb-5 text-sm'>{desc2}</p>
 
-                                <button className='text-green-500 border-b border-green-600'>{button}</button>
+                                    <a href="https://www.facebook.com/profile.php?id=100080074551293"><button className='text-green-500 border-b border-green-600'>{button}</button> </a>
                                </div>
 
 

@@ -3,6 +3,8 @@ import Logo from '../src/img/header/logo.png';
 import backgroundImage1 from "../src/img/hero/2.jpg"
 import backgroundImage2 from "../src/img/hero/3.jpg"
 import backgroundImage3 from "../src/img/hero/4.jpg"
+import backgroundImage4 from "../src/img/hero/5.jpg"
+import backgroundImage5 from "../src/img/hero/6.jpg"
 import GalleryImg1 from '../src/img/gallery/1.jpg';
 import GalleryImg2 from '../src/img/gallery/2.jpg';
 import GalleryImg3 from '../src/img/gallery/3.jpg';
@@ -59,7 +61,7 @@ export const heroData = {
       image: backgroundImage1,
     },
     {
-      title: 'International Day of the Girl Child.',
+      title: 'Child Protection',
       btnText: 'read more',
       btnIcon: <IoMdArrowForward />,
       image: backgroundImage2,
@@ -69,6 +71,18 @@ export const heroData = {
       btnText: 'read more',
       btnIcon: <IoMdArrowForward />,
       image: backgroundImage3,
+    },
+    {
+      title: 'International Day of the Girl Child.',
+      btnText: 'read more',
+      btnIcon: <IoMdArrowForward />,
+      image: backgroundImage4,
+    },
+    {
+      title: 'Health',
+      btnText: 'read more',
+      btnIcon: <IoMdArrowForward />,
+      image: backgroundImage5,
     },
   ],
 };
@@ -102,8 +116,8 @@ export const doings = [
     icon: hand,
     name: 'health',
     heading: '04. Health',
-    desc: 'Engage more youth, women and children in community activities to have a champion society.',
-    desc2: 'Foster active participation in social, economic, and cultural activities to strengthen community bonds and create a supportive environment.',
+    desc: 'SEPCEYOWOC  provides Medical Outreaches for communities, educate,',
+    desc2: 'and inspire individuals to take control of their well-being. We believe that every person deserves to live a vibrant, healthy life.',
     button: 'read more'
 },
 ];
