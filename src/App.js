@@ -8,6 +8,8 @@ import Copyright from './components/Copyright';
 import Focus from './components/Focus';
 import Events from './components/Events';
 import Cta from './components/Cta';
+import Value from './components/Value';
+
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
       <Hero />
       <About />
       <Focus />
+      <Value />
       <GallerySection />
       <Events />
       <Cta />

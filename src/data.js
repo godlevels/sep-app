@@ -98,6 +98,14 @@ export const doings = [
       desc2: 'Foster active participation in social, economic, and cultural activities to strengthen community bonds and create a supportive environment.',
       button: 'read more'
   },
+  {
+    icon: hand,
+    name: 'health',
+    heading: '04. Health',
+    desc: 'Engage more youth, women and children in community activities to have a champion society.',
+    desc2: 'Foster active participation in social, economic, and cultural activities to strengthen community bonds and create a supportive environment.',
+    button: 'read more'
+},
 ];
 
 
