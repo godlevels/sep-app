@@ -9,6 +9,7 @@ import Focus from './components/Focus';
 import Events from './components/Events';
 import Cta from './components/Cta';
 import Value from './components/Value';
+import Mission from './components/Mission';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Hero />
       <About />
       <Focus />
+      <Mission />
       <Value />
       <GallerySection />
       <Events />
